@@ -1,15 +1,110 @@
 body {
-  margin: 0;
-  padding: 0;
   display: flex;
   justify-content: center;
   align-items: center;
   min-width: 800px;
   max-width: 1200px;
+  margin: 0 auto;
+  background-color: #c0c0c0;
+}
+
+.todo {
+  background-color: white;
+}
+
+.inputSection {
+  display: flex;
+  margin-left: 10px;
+}
+
+.inputSection input {
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 200px;
+  height: 20px;
+  border-radius: 5px;
+  padding: 3px;
+}
+
+.addSection {
+  display: flex;
+}
+
+h1 {
+  background-color: #ffa500;
+  height: 60px;
+  padding-top: 15px;
+  padding-left: 15px;
+  border-top: 13px dotted white;
+}
+
+.workingSection,
+.doneSection {
+  background-color: snow;
+  padding: 10px;
 }
 
 .addBtn {
-  width: 70px;
-  height: 20px;
-  margin-left: 100px;
+  background-color: #4682b4;
+  font-weight: bolder;
+  font-size: 16px;
+  width: 80px;
+  height: 30px;
+  margin-left: 200px;
+  border-radius: 5px;
+  margin-right: 15px;
+}
+
+.addBtn:hover {
+  background-color: #fffff0;
+}
+
+.card-container {
+  display: flex;
+}
+
+.cardworking {
+  border: 2px solid #4682b4;
+  background-color: #fffff0;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.carddone {
+  border: 2px solid red;
+  background-color: #fffff0;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.deleteBtn,
+.toggleBtn {
+  border-radius: 20px;
+  margin: 5px;
+  width: 90px;
+  height: 30px;
+}
+
+.deleteBtn {
+  background-color: #ff4500;
+  font-size: 15px;
+  font-weight: bolder;
+}
+
+.deleteBtn:hover {
+  background-color: #fffff0;
+}
+
+.toggleBtn {
+  background-color: #98fb98;
+  font-size: 15px;
+  font-weight: bolder;
+}
+
+.toggleBtn:hover {
+  background-color: #fffff0;
 }
