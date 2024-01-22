@@ -1,3 +1,5 @@
+// Todo 카드 컴포넌트
+
 const TodoCard = ({ todo, deleteBtnClickHandler, toggleDoneCancelHandler }) => {
   return (
     <div className={`card${todo.isDone ? "done" : "working"}`}>
